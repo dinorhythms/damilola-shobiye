@@ -37,7 +37,11 @@ const page = () => {
         </div>
       </nav>
       <section className='bg-[#C8CDD9] h-[756px] w-full'>
-        <Carousel className='rounded-xl'>
+        <Carousel
+          className='rounded-xl'
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}>
           <img
             src='/assets/images/sliders/WhatsApp Image 2024-07-03 at 11.00.21_0f02d63d.jpg'
             alt='image 1'
