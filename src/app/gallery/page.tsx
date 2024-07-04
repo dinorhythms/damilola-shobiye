@@ -5,11 +5,11 @@ import { Gallery, Image } from 'react-grid-gallery';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 
-export interface CustomImage extends Image {
+interface CustomImage extends Image {
   original: string;
 }
 
-export const images: CustomImage[] = [
+const images: CustomImage[] = [
   {
     src: '/assets/images/gallery/gallery1.jpg',
     original: '/assets/images/gallery/gallery1.jpg',
