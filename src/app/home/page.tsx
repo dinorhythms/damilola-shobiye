@@ -14,7 +14,7 @@ const page = () => {
           alt='slider 1'
         />
         <div className='hidden lg:block mx-3 lg:mx-0 w-full bg-black text-white bg-opacity-60 absolute bottom-0'>
-          <div className='container mx-auto text-center py-16'>
+          <div className='container mx-auto text-center pt-16 pb-3'>
             <p className='font-bold text-xl'>
               IN LOVING MEMORY OF BARR. MRS. DAMILOLA O. SHOBIYE (nee Oyeledun)
             </p>
@@ -37,7 +37,7 @@ const page = () => {
         </div>
       </section>
       <section className='mx-3 lg:mx-0'>
-        <div className='container mx-auto text-center py-16'>
+        <div className='container mx-auto text-center py-16 lg:pt-3'>
           <p className='font-bold text-xl inline lg:hidden'>
             IN LOVING MEMORY OF BARR. MRS. DAMILOLA O. SHOBIYE (nee Oyeledun)
           </p>
