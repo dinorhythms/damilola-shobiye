@@ -1,6 +1,5 @@
 'use client';
 import { Carousel } from '@material-tailwind/react';
-import { DiscussionEmbed } from 'disqus-react';
 import Link from 'next/link';
 
 const page = () => {
@@ -8,28 +7,41 @@ const page = () => {
     <div>
       <section className='bg-[#C8CDD9] h-[756px] w-full'>
         <Carousel
+          autoplay={true}
+          loop={true}
           className='rounded-xl'
           placeholder={undefined}
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}>
+          {/* <Image
+            width={1440}
+            height={300}
+            src='/assets/images/sliders/slide1.jpg'
+            alt='slider 1'
+          /> */}
           <img
-            src='/assets/images/sliders/WhatsApp Image 2024-07-03 at 11.00.21_0f02d63d.jpg'
+            src='/assets/images/sliders/slide1.jpg'
             alt='image 1'
             className='h-full w-full object-cover'
           />
           <img
-            src='/assets/images/sliders/WhatsApp Image 2024-07-03 at 11.04.44_6afbac85.jpg'
+            src='/assets/images/sliders/slide2.jpg'
             alt='image 2'
             className='h-full w-full object-cover'
           />
           <img
-            src='/assets/images/sliders/WhatsApp Image 2024-07-03 at 11.28.03_eae052c8.jpg'
+            src='/assets/images/sliders/slide3.jpg'
             alt='image 3'
             className='h-full w-full object-cover'
           />
           <img
-            src='/assets/images/sliders/WhatsApp Image 2024-07-03 at 14.14.23_2f912872.jpg'
-            alt='image 3'
+            src='/assets/images/sliders/slide4.jpg'
+            alt='image 4'
+            className='h-full w-full object-cover'
+          />
+          <img
+            src='/assets/images/sliders/slide5.jpg'
+            alt='image 5'
             className='h-full w-full object-cover'
           />
         </Carousel>
@@ -78,47 +90,15 @@ const page = () => {
               Peace Sweetie! I know that the Almighty God will comfort us all by
               His Grace.
             </p>
-            <p className='mb-7'>
-              This is a great space to write long text about your company and
-              your services. You can use this space to go into a little more
-              detail about your company. Talk about your team and what services
-              you provide. Tell your visitors the story of how you came up with
-              the idea for your business and what makes you different from your
-              competitors.
-            </p>
             <p className='mb-2 text-lg font-bold'>Your husband,</p>
             <p className='mb-2 text-lg font-bold'>Peter Shobiye</p>
             <div className=''>
-              <Link href={'/home'}>
+              <Link href={'/tribute'}>
                 <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
                   Share a Memory/Tribute of Damilola
                 </button>
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className='bg-[#F6F6F6] mx-3 lg:mx-0'>
-        <div className='container mx-auto text-center py-16'>
-          <p className='font-bold text-xl'>SHARE HER LIFE</p>
-          <p className='text-3xl my-4 font-bold'>MEMORIES / TRIBUTES</p>
-          <div>
-            <DiscussionEmbed
-              shortname='damilola-shobiye'
-              config={{
-                url: 'https://damilola-shobiye.netlify.app/home',
-                // identifier: this.props.article.id,
-                title: 'Damilola Shobiye',
-                language: 'en',
-              }}
-            />
-          </div>
-          <div className=''>
-            <Link href={'/home'}>
-              <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
-                View More
-              </button>
-            </Link>
           </div>
         </div>
       </section>

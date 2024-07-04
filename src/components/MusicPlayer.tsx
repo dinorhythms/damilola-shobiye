@@ -16,16 +16,11 @@ const MusicPlayer = () => {
   };
   return (
     <div className='sticky bottom-0 bg-deep-orange-400 w-full'>
-      {/* <audio ref={audioRef} src='/assets/mp3/song.mp3' /> */}
-      {/* <audio ref={audioRef} controls className='hidden'>
-        <source src='/assets/mp3/song.mp3' type='audio/mp3' />
-        Your browser does not support the audio element.
-      </audio> */}
       <AudioPlayer
         className='bg-deep-orange-400'
         autoPlay={true}
         loop={true}
-        src='/assets/mp3/song.mp3'
+        src='/assets/mp3/nosa-song.mp3'
         onPlay={(e) => console.log('onPlay')}
         // other props here
       />

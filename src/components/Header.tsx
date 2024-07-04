@@ -27,7 +27,7 @@ const images = [
 
 const Header = ({ title }: any) => {
   return (
-    <header className='h-[513px] bg-blue-gray-700 relative overflow-hidden'>
+    <header className='h-[200px] lg:h-[513px] bg-blue-gray-700 relative overflow-hidden'>
       <div className='columns-4 gap-0 sm:columns-4 sm:gap-0 md:columns-4 lg:columns-8 [&>img:not(:first-child)]:mt-0'>
         {images.map((src, index) => (
           <img
@@ -39,7 +39,7 @@ const Header = ({ title }: any) => {
         ))}
       </div>
       <div className='absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-60 text-white'>
-        <h1 className='text-4xl mb-4 font-bold max-w-[900px] text-center mx-3'>
+        <h1 className='lg:text-4xl mb-4 font-bold max-w-[900px] text-center mx-3'>
           {title}
         </h1>
       </div>

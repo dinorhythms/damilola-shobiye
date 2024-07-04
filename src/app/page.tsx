@@ -51,13 +51,16 @@ export default function Home() {
       <div className='absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-60 text-white'>
         <h1 className='text-4xl mb-4 font-bold max-w-[900px] text-center mx-3'>
           IN LOVING MEMORY OF BARRISTER MRS DAMILOLA O. SHOBIYE <br />
-          (NEE OYELEDUN).
+          (NEE OYELEDUN)
         </h1>
         <p className='max-w-[700px] text-center mx-3'>
           Dami my dear wife, I write with the deepest grieve Sweetie mi. I
           cannot believe that I am writing about your demise. This was not what
           you and I, and our children: Iretemi and Olamipo, discussed and hoped
           for when we started Year 2023...
+          <Link href={'/home'}>
+            <span className='underline'>read more</span>
+          </Link>
         </p>
         <Link href={'/home'}>
           <button className='mt-5 px-5 py-3 rounded bg-black text white'>

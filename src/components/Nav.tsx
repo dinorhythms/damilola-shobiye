@@ -24,11 +24,15 @@ const Nav = () => {
           <Link href={'/life-of-damilola'}>
             <span className='font-semibold'>LIFE OF DAMILOLA</span>
           </Link>
-          <span className='font-semibold'>GALLERY</span>
-          <span className='font-semibold'>TRIBUTE/MEMORIES</span>
+          <Link href={'/gallery'}>
+            <span className='font-semibold'>GALLERY</span>
+          </Link>
+          <Link href={'/tribute'}>
+            <span className='font-semibold'>TRIBUTE/MEMORIES</span>
+          </Link>
           <span className='font-semibold'>FUNERAL ARRANGEMENT</span>
         </div>
-        <div className='flex items-center gap-3 mx-3'>
+        <div className='hidden lg:flex items-center gap-3 mx-3'>
           <svg
             width='14'
             height='14'
@@ -49,7 +53,7 @@ const Nav = () => {
           placeholder={undefined}
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
-          className='ml-auto h-6 w-6 mr-2 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden'
+          className='ml-auto h-6 w-6 mr-3 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden'
           ripple={false}
           onClick={() => setOpenNav(!openNav)}>
           {openNav ? (
@@ -104,18 +108,22 @@ const Nav = () => {
                 LIFE OF DAMILOLA
               </ListItem>
             </Link>
-            <ListItem
-              placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}>
-              GALLERY
-            </ListItem>
-            <ListItem
-              placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}>
-              TRIBUTE/MEMORIES
-            </ListItem>
+            <Link href={'/gallery'}>
+              <ListItem
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}>
+                GALLERY
+              </ListItem>
+            </Link>
+            <Link href={'/tribute'}>
+              <ListItem
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}>
+                TRIBUTE/MEMORIES
+              </ListItem>
+            </Link>
             <ListItem
               placeholder={undefined}
               onPointerEnterCapture={undefined}
