@@ -5,46 +5,7 @@ import Link from 'next/link';
 const page = () => {
   return (
     <div>
-      <section className='bg-[#C8CDD9] w-full'>
-        {/* <Carousel
-          autoplay={true}
-          loop={true}
-          className='rounded-xl'
-          placeholder={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}>
-          <Image
-            width={1440}
-            height={300}
-            src='/assets/images/sliders/slide1.jpg'
-            alt='slider 1'
-          /> 
-          <img
-            src='/assets/images/sliders/slide1.jpg'
-            alt='image 1'
-            className='lg:h-full w-full object-cover'
-          />
-          <img
-            src='/assets/images/sliders/slide2.jpg'
-            alt='image 2'
-            className='lg:h-full w-full object-cover'
-          />
-          <img
-            src='/assets/images/sliders/slide3.jpg'
-            alt='image 3'
-            className='lg:h-full w-full object-cover'
-          />
-          <img
-            src='/assets/images/sliders/slide4.jpg'
-            alt='image 4'
-            className='lg:h-full w-full object-cover'
-          />
-          <img
-            src='/assets/images/sliders/slide5.jpg'
-            alt='image 5'
-            className='lg:h-full w-full object-cover'
-          />
-        </Carousel> */}
+      <section className='bg-[#C8CDD9] w-full relative'>
         <Image
           width={1280}
           height={749}
@@ -52,15 +13,39 @@ const page = () => {
           src='/assets/images/sliders/damilola-shobiye.jpg'
           alt='slider 1'
         />
+        <div className='hidden lg:block mx-3 lg:mx-0 w-full bg-black text-white bg-opacity-60 absolute bottom-0'>
+          <div className='container mx-auto text-center py-16'>
+            <p className='font-bold text-xl'>
+              IN LOVING MEMORY OF BARR. MRS. DAMILOLA O. SHOBIYE (nee Oyeledun)
+            </p>
+            <p className='text-3xl my-4 font-bold'>(1982 -2024)</p>
+            <div className='max-w-[800px] mx-auto text-center mt-5'>
+              <p className=''>
+                Dami my dear wife, I write with the deepest grieve Sweetie mi. I
+                cannot believe that I am writing about your demise. This was not
+                what you and I, and our children: Iretemi and Olamipo, discussed
+                and hoped for when we started Year 2023. We had planned to
+                celebrate our 15th year wedding anniversary elaborately in
+                London in December 2023, we were very excited about your new job
+                in March 2023 following your course completion at the John
+                Molson School of Business, we rejoiced at your graduation
+                ceremony in June 2023, and we were looking forward to conclude
+                the purchase of our home in Canada.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section className='mx-3 lg:mx-0'>
         <div className='container mx-auto text-center py-16'>
-          <p className='font-bold text-xl'>
+          <p className='font-bold text-xl inline lg:hidden'>
             IN LOVING MEMORY OF BARR. MRS. DAMILOLA O. SHOBIYE (nee Oyeledun)
           </p>
-          <p className='text-3xl my-4 font-bold'>(1982 -2024)</p>
-          <div className='max-w-[800px] mx-auto text-center mt-7'>
-            <p className='mb-7'>
+          <p className='text-3xl my-4 font-bold inline lg:hidden'>
+            (1982 -2024)
+          </p>
+          <div className='max-w-[800px] mx-auto text-center mt-7 lg:mt-0'>
+            <p className='mb-7 inline lg:hidden'>
               Dami my dear wife, I write with the deepest grieve Sweetie mi. I
               cannot believe that I am writing about your demise. This was not
               what you and I, and our children: Iretemi and Olamipo, discussed

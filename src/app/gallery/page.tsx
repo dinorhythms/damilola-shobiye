@@ -118,14 +118,14 @@ const images: CustomImage[] = [
     height: 1280,
     // caption: 'Old Barn (Tom Eversley - isorepublic.com)',
   },
-  // {
-  //   src: 'https://c2.staticflickr.com/8/7577/28973580825_d8f541ba3f_b.jpg',
-  //   original: 'https://c2.staticflickr.com/8/7577/28973580825_d8f541ba3f_b.jpg',
-  //   alt: 'Cosmos Flower',
-  //   width: 320,
-  //   height: 213,
-  //   caption: 'Cosmos Flower Macro (Tom Eversley - isorepublic.com)',
-  // },
+  {
+    src: 'https://c2.staticflickr.com/8/7577/28973580825_d8f541ba3f_b.jpg',
+    original: 'https://c2.staticflickr.com/8/7577/28973580825_d8f541ba3f_b.jpg',
+    alt: 'Cosmos Flower',
+    width: 320,
+    height: 213,
+    caption: 'Cosmos Flower Macro (Tom Eversley - isorepublic.com)',
+  },
   // {
   //   src: 'https://c7.staticflickr.com/9/8106/28941228886_86d1450016_b.jpg',
   //   original: 'https://c7.staticflickr.com/9/8106/28941228886_86d1450016_b.jpg',
