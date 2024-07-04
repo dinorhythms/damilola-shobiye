@@ -1,50 +1,57 @@
 'use client';
-import { Carousel } from '@material-tailwind/react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const page = () => {
   return (
     <div>
-      <section className='bg-[#C8CDD9] h-[756px] w-full'>
-        <Carousel
+      <section className='bg-[#C8CDD9] w-full'>
+        {/* <Carousel
           autoplay={true}
           loop={true}
           className='rounded-xl'
           placeholder={undefined}
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}>
-          {/* <Image
+          <Image
             width={1440}
             height={300}
             src='/assets/images/sliders/slide1.jpg'
             alt='slider 1'
-          /> */}
+          /> 
           <img
             src='/assets/images/sliders/slide1.jpg'
             alt='image 1'
-            className='h-full w-full object-cover'
+            className='lg:h-full w-full object-cover'
           />
           <img
             src='/assets/images/sliders/slide2.jpg'
             alt='image 2'
-            className='h-full w-full object-cover'
+            className='lg:h-full w-full object-cover'
           />
           <img
             src='/assets/images/sliders/slide3.jpg'
             alt='image 3'
-            className='h-full w-full object-cover'
+            className='lg:h-full w-full object-cover'
           />
           <img
             src='/assets/images/sliders/slide4.jpg'
             alt='image 4'
-            className='h-full w-full object-cover'
+            className='lg:h-full w-full object-cover'
           />
           <img
             src='/assets/images/sliders/slide5.jpg'
             alt='image 5'
-            className='h-full w-full object-cover'
+            className='lg:h-full w-full object-cover'
           />
-        </Carousel>
+        </Carousel> */}
+        <Image
+          width={1280}
+          height={749}
+          className='lg:h-[749px] w-full object-cover'
+          src='/assets/images/sliders/damilola-shobiye.jpg'
+          alt='slider 1'
+        />
       </section>
       <section className='mx-3 lg:mx-0'>
         <div className='container mx-auto text-center py-16'>
