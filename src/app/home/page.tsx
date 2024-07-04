@@ -6,36 +6,6 @@ import Link from 'next/link';
 const page = () => {
   return (
     <div>
-      <nav className=''>
-        <div className='container mx-auto flex justify-between items-center'>
-          <div className='bg-black px-10 py-5 w-[220px] text-white'>
-            In Memory of Damilola Shobiye
-          </div>
-          <div className='hidden lg:flex gap-5'>
-            <span className='font-semibold'>HOME</span>
-            <span className='font-semibold'>LIFE OF DAMILOLA</span>
-            <span className='font-semibold'>GALLERY</span>
-            <span className='font-semibold'>TRIBUTE/MEMORIES</span>
-            <span className='font-semibold'>FUNERAL ARRANGEMENT</span>
-          </div>
-          <div className='flex items-center gap-3 mx-3'>
-            <svg
-              width='14'
-              height='14'
-              className='hidden lg:flex gap-5'
-              viewBox='0 0 14 14'
-              fill='none'
-              xmlns='http://www.w3.org/2000/svg'>
-              <path
-                d='M6.33331 10.3333H7.66665V7.66668H10.3333V6.33334H7.66665V3.66668H6.33331V6.33334H3.66665V7.66668H6.33331V10.3333ZM6.99998 13.6667C6.07776 13.6667 5.21109 13.4917 4.39998 13.1417C3.58887 12.7917 2.88331 12.3167 2.28331 11.7167C1.68331 11.1167 1.20831 10.4111 0.858313 9.60001C0.508313 8.7889 0.333313 7.92223 0.333313 7.00001C0.333313 6.07779 0.508313 5.21112 0.858313 4.40001C1.20831 3.5889 1.68331 2.88334 2.28331 2.28334C2.88331 1.68334 3.58887 1.20834 4.39998 0.858343C5.21109 0.508343 6.07776 0.333344 6.99998 0.333344C7.9222 0.333344 8.78887 0.508343 9.59998 0.858343C10.4111 1.20834 11.1166 1.68334 11.7166 2.28334C12.3166 2.88334 12.7916 3.5889 13.1416 4.40001C13.4916 5.21112 13.6666 6.07779 13.6666 7.00001C13.6666 7.92223 13.4916 8.7889 13.1416 9.60001C12.7916 10.4111 12.3166 11.1167 11.7166 11.7167C11.1166 12.3167 10.4111 12.7917 9.59998 13.1417C8.78887 13.4917 7.9222 13.6667 6.99998 13.6667ZM6.99998 12.3333C8.48887 12.3333 9.74998 11.8167 10.7833 10.7833C11.8166 9.75001 12.3333 8.4889 12.3333 7.00001C12.3333 5.51112 11.8166 4.25001 10.7833 3.21668C9.74998 2.18334 8.48887 1.66668 6.99998 1.66668C5.51109 1.66668 4.24998 2.18334 3.21665 3.21668C2.18331 4.25001 1.66665 5.51112 1.66665 7.00001C1.66665 8.4889 2.18331 9.75001 3.21665 10.7833C4.24998 11.8167 5.51109 12.3333 6.99998 12.3333Z'
-                fill='#0C0C0C'
-              />
-            </svg>
-
-            <span className=''>SHARE A TRIBUTE/MEMORY</span>
-          </div>
-        </div>
-      </nav>
       <section className='bg-[#C8CDD9] h-[756px] w-full'>
         <Carousel
           className='rounded-xl'
@@ -150,15 +120,6 @@ const page = () => {
               </button>
             </Link>
           </div>
-        </div>
-      </section>
-      <section className='bg-[#0C0C0C] mx-0 lg:mx-0'>
-        <div className='container mx-auto text-center py-16 text-white'>
-          <p className='font-bold text-xl'>REMEMBERING DAMILOLA</p>
-          <p className='text-3xl my-4 font-bold'>
-            This site was created in memory of Barrister Mrs. Damilola Shobiye.
-            Our loving Wife and Mother
-          </p>
         </div>
       </section>
     </div>
