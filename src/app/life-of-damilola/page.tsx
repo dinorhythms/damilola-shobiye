@@ -33,45 +33,136 @@ const LifeOfDamilola = () => {
             </div>
           </div>
           <div className='lg:w-2/3 mx-auto text-center'>
-            <p className='mb-5'>
-              Dami my dear wife, I write with the deepest grieve Sweetie mi. I
-              cannot believe that I am writing about your demise. This was not
-              what you and I, and our children: Iretemi and Olamipo, discussed
-              and hoped for when we started Year 2023. We had planned to
-              celebrate our 15th year wedding anniversary elaborately in London
-              in December 2023, we were very excited about your new job in March
-              2023 following your course completion at the John Molson School of
-              Business, we rejoiced at your graduation ceremony in June 2023,
-              and we were looking forward to conclude the purchase of our home
-              in Canada. 
-            </p>
-            <p className='mb-5'>
-              I am still in shock because what was meant to be a routine
-              hospital visit for you, changed everything completely. I travelled
-              back to Montreal immediately from Nigeria where I was running our
-              Law Firm. Since my arrival in Montreal in the last 11+ months, I
-              sat daily by your bed side at the hospital. The specialists were
-              hopeful that you will make a recovery given time, and indeed you
-              were responding to treatment. Our children and I, and our loved
-              ones prayed tirelessly, fasted, and trusted that God will bring us
-              back together as a family. Sadly, since you left us on 27 June
-              2024, we are still in the deepest shock and our hearts have been
-              torn in pieces. But we believe that God knows best and you are now
-              in a better place. Dami you are a special person, honestly a rare
-              gem. Dami, our 19 years + relationship was love in its truest and
-              purest form, you were genuine, and I know that no one can alter
-              your legacies. 
-            </p>
-            <p className='mb-10'>
-              Dami, your sudden demise has left the deepest hole in our children
-              and I, families, and friends. You have left an indelible mark on
-              this earth and you deserve to be respected and honoured
-              accordingly — I will continue to ensure that this happens. Rest in
-              Peace Sweetie! I know that the Almighty God will comfort us all by
-              His Grace. 
-            </p>
-            <p className=''>Your Husband,</p>
-            <p className='font-bold'>Peter Shobiyi.</p>
+            <div className='mb-7'>
+              <p className='font-bold text-xl mb-5'>Background</p>
+              <p className='mb-5'>
+                On Tuesday 20 July 1982, the St. Nicholas Hospital, Lagos,
+                Nigeria, was filled with utmost joy and celebrations, as the
+                family of Engineer Abayomi Omoyoyinsola Oyeledun and Late Mrs.
+                Ojuloape Agbeke Oyeledun, welcomed the birth of their twin
+                children named Oluwadamilola Oyetaiwo, and her twin brother
+                Omowonuola Oyekehinde.
+              </p>
+              <p className='mb-5'>
+                Oluwadamilola grew up predominantly in the vibrant city of Ijebu
+                Ode, Ogun State, with her parents and her four siblings.
+                Oluwadamilola&apos;s siblings are Olaniyi her eldest brother,
+                Teniola her sister, Omowonuola her twin brother, and Abiodun her
+                youngest brother.
+              </p>
+              <p className='mb-5'>
+                Oluwadamilola also grew up with the abundance of her
+                parents&apos; siblings, aunties, uncles, cousins, nephew,
+                nieces, friends, and others.
+              </p>
+            </div>
+            <div className='mb-7'>
+              <p className='font-bold text-xl mb-5'>Marital Life and Family</p>
+              <p className='mb-5'>
+                Oluwadamilola married her sweet lover, Peter Oladimeji Shobiye
+                on 19 December 2008, at a celebration held at the Ikoyi Marriage
+                Registry, Ikoyi, Lagos, with the attendance of parents, families
+                and friends. Their traditional wedding thereafter took place on
+                03 January 2009 at the Gateway Hotel Annex, GRA, Ijebu Ode, Ogun
+                State, graced by parents, families, friends and acquaintances.
+              </p>
+              <p className='mb-5'>
+                Oluwadamilola and Peter’s journey of love actually started in
+                April 2005, they were fond of each other, and did almost
+                everything together. Their love grew so vibrantly that it
+                organically led to their decision to be married. Oluwadamilola
+                and Peter loved travelling internationally, and they have both
+                visited many cities across the globe, and every year both of
+                them were always adding new cities to their travel bucket.
+              </p>
+              <p className='mb-5'>
+                In 2008, Peter moved to Glasgow, Scotland and after their
+                wedding ceremonies in January 2009, Oluwadamilola joined him in
+                Glasgow in February 2009, where they both studied and worked to
+                start their own family.
+              </p>
+              <p className='mb-5'>
+                In July 2010, Oluwadamilola and Peter welcomed their first
+                child, Iretemi, who was born at the Southern General Hospital,
+                Glasgow, Scotland. Both the families of Shobiye and Oyeledun
+                were filled with joy at the great news of the arrival of their
+                great grandson, grandson, nephew, and cousin.{' '}
+              </p>
+              <p className='mb-5'>
+                In December 2012, Peter and Oluwadamilola moved back to Lagos in
+                order to concentrate and develop their law career in Nigeria,
+                and to build a commercial law firm, which metamorphosised into
+                the Law Firm known today as Pisteuo Solicitors with presence in
+                Lagos, Abuja, and Kano.{' '}
+              </p>
+              <p className='mb-5'>
+                In October 2015, Oluwadamilola and Peter welcomed their second
+                child, Olamipo, who was born in Nevada, United States of
+                America. Again, both the families of Shobiye and Oyeledun were
+                filled with joy at the great news of the arrival of another
+                great grandson, grandson, nephew, and cousin.{' '}
+              </p>
+              <p className='mb-5'>
+                Oluwadamilola, Peter and the children lived together happily.
+                They both trained their children in an atmosphere of love and
+                peace. In August 2021, Oluwadamilola and Peter decided to expand
+                their frontiers, with Oluwadamilola and their two children
+                moving to Montreal, Canada, whilst Peter shuttled between
+                Nigeria and Canada to manage their business and family
+                interests.
+              </p>
+              <p className='mb-5'>
+                Oluwadamilola and Peter were a loving couple and great parents
+                to their children until the unfortunate demise of Oluwadamilola
+                on 27 June 2024. All through her hospitalisation in Montreal
+                Canada for 11+ months, Peter was always by her bed side daily,
+                as he fought so hard for his wife, the love of his life,
+                confidant and friend to stay alive and well.
+              </p>
+            </div>
+            <div className='mb-7'>
+              <p className='font-bold text-xl mb-5'>Education and Career</p>
+              <p className='mb-5'>
+                Oluwadamilola commenced her educational learning at the St.
+                Anthony’s Nursery and Primary School, Ijebu Ode, Ogun State.
+                Upon her graduation from Primary School, Oluwadamilola gained
+                admission into the Command Secondary School, Ibadan, Oyo State,
+                where she studied but later joined and graduated from the
+                Federal Government College, Odogbolu, Ogun State.
+              </p>
+              <p className='mb-5'>
+                Following her secondary school, Oluwadamilola gained admission
+                into Babcock University, Ikenne, Ogun State to study a finance
+                related course, but later opted to accept her admission to study
+                Law at the Ogun State University (now known as Olabisi Onabanjo
+                University), Ago – Iwoye, Ogun State. Oluwadamilola progressed
+                well in her Law studies, and graduated successfully in September
+                2005 with a Bachelor of Laws (LLB).
+              </p>
+              <p className='mb-5'>
+                In October 2005, Oluwadamilola commenced classes at the Nigerian
+                Law School, Bwari Campus, Abuja (FCT), in pursuit of her utmost
+                desire to be admitted in the roll of lawyers in Nigeria. She was
+                successful at her first attempt in the bar exams, and was called
+                to the Nigerian Bar in November 2006, with her name entered into
+                the roll of lawyers at the Supreme Court of Nigeria.
+              </p>
+              <p className='mb-5'>
+                For her Master’s degree, Oluwadamilola gained admission into
+                Glasgow Caledonian University, Glasgow, Scotland, United
+                Kingdom, where she finished top of her class as the best LLM
+                graduating student in July 2010. Her desire to pursue continuous
+                development gained her admission in the prestigious John Molson
+                School of Business, Concordia University, Montreal, Quebec,
+                Canada, in pursuit of a Masters in Business Administration
+                (MBA), and she graduated with celebrations held in June 2023.
+              </p>
+              <p className='mb-5'>
+                Oluwadamilola had a great career, worked with multinationals in
+                different sectors, oil and gas, finance, law, education, and
+                commerce.
+              </p>
+            </div>
             <div className='mt-5'>
               <Link href={'/tribute'}>
                 <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>

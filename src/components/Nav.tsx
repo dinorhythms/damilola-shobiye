@@ -30,7 +30,9 @@ const Nav = () => {
           <Link href={'/tribute'}>
             <span className='font-semibold'>TRIBUTE/MEMORIES</span>
           </Link>
-          <span className='font-semibold'>FUNERAL ARRANGEMENT</span>
+          <Link href={'/funeral'}>
+            <span className='font-semibold'>FUNERAL ARRANGEMENT</span>
+          </Link>
         </div>
         <div className='hidden lg:flex items-center gap-3 mx-3'>
           <Link href={'/tribute'}>
@@ -128,12 +130,14 @@ const Nav = () => {
                 TRIBUTE/MEMORIES
               </ListItem>
             </Link>
-            <ListItem
-              placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}>
-              FUNERAL ARRANGEMENT
-            </ListItem>
+            <Link href={'/funeral'}>
+              <ListItem
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}>
+                FUNERAL ARRANGEMENT
+              </ListItem>
+            </Link>
           </List>
         </div>
       )}
