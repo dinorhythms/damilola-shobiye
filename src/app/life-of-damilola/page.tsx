@@ -68,8 +68,8 @@ const LifeOfDamilola = () => {
                 State, graced by parents, families, friends and acquaintances.
               </p>
               <p className='mb-5'>
-                Oluwadamilola and Peter’s journey of love actually started in
-                April 2005, they were fond of each other, and did almost
+                Oluwadamilola and Peter&lsquo;s journey of love actually started
+                in April 2005, they were fond of each other, and did almost
                 everything together. Their love grew so vibrantly that it
                 organically led to their decision to be married. Oluwadamilola
                 and Peter loved travelling internationally, and they have both
@@ -116,9 +116,9 @@ const LifeOfDamilola = () => {
                 Oluwadamilola and Peter were a loving couple and great parents
                 to their children until the unfortunate demise of Oluwadamilola
                 on 27 June 2024. All through her hospitalisation in Montreal
-                Canada for 11+ months, Peter was always by Oluwadamilola's bed
-                side daily, as he fought so hard for his wife, the love of his
-                life, confidant and friend to stay alive and well.
+                Canada for 11+ months, Peter was always by Oluwadamilola&lsquo;s
+                bed side daily, as he fought so hard for his wife, the love of
+                his life, confidant and friend to stay alive and well.
               </p>
             </div>
             <div className='mb-7'>
