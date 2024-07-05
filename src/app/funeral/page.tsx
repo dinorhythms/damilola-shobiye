@@ -5,11 +5,15 @@ import Link from 'next/link';
 const LifeOfDamilola = () => {
   return (
     <div>
-      <Header title={'FUNERAL ARRANGEMENT'} />
+      <Header
+        title={
+          'FUNERAL ARRANGEMENT OF BARRISTER MRS. DAMILOLA O. SHOBIYE (NEE OYELEDUN)'
+        }
+      />
       <section className='mx-3 lg:mx-0 py-16'>
         <div className='container mx-auto'>
           <div className='text-center'>
-            <p className='font-bold text-xl'>Damilola Shobiye</p>
+            <p className='font-bold text-xl'>Mrs. Damilola O. Shobiye</p>
             <p className='text-3xl my-4 font-bold'>Funeral Arrangement</p>
           </div>
           <div className='lg:w-2/3 mx-auto text-center mt-10'>
@@ -22,7 +26,7 @@ const LifeOfDamilola = () => {
               <p className='mb-5'>
                 We thank you for all your words of encouragement and moral
                 support at this difficult time, please continue to put the both
-                families of Shobiye and Oyeledun in your prayers has they
+                families of Shobiye and Oyeledun in your prayers as they
                 navigate this sensitive and painful curve.
               </p>
               <p className='mb-5'>
@@ -32,8 +36,23 @@ const LifeOfDamilola = () => {
             </div>
             <div className='mt-5'>
               <Link href={'/tribute'}>
-                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
                   Share a Memory/Tribute of Damilola
+                </button>
+              </Link>
+              <Link href={'/life-of-damilola'}>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
+                  Life of Damilola
+                </button>
+              </Link>
+              <Link href={'/gallery'}>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
+                  Gallery
+                </button>
+              </Link>
+              <Link href={'/funeral'}>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
+                  Funeral Arrangment
                 </button>
               </Link>
             </div>

@@ -6,7 +6,7 @@ const LifeOfDamilola = () => {
   return (
     <div>
       <Header
-        title={'LIFE OF OF BARRISTER MRS DAMILOLA O. SHOBIYE (NEE OYELEDUN).'}
+        title={'LIFE OF OF BARRISTER MRS DAMILOLA O. SHOBIYE (NEE OYELEDUN)'}
       />
       <section className='mx-3 lg:mx-0 py-16'>
         <div className='container mx-auto'>
@@ -16,21 +16,22 @@ const LifeOfDamilola = () => {
               Barrister Mrs. Damilola Shobiye
             </p>
           </div>
-          <div className='flex flex-col lg:flex-row gap-5 my-16'>
-            <div className='lg:w-1/3 flex justify-center items-center'>
-              <p className='font-bold text-5xl'>1982</p>
+          <div className='flexx flex-col lg:flex-row gap-5 my-16'>
+            <div className='llg:w-1/2 flexx justify-centerr items-centerr text-center'>
+              <p className='font-bold text-2xl lg:text-5xl mb-5'>1982-2024</p>
             </div>
-            <div className='lg:w-1/3 text-center lg:text-left'>
+            <div className='llg:w-1/2 text-center lg:text-left'>
               <Image
                 alt='damilola'
+                className='mx-auto'
                 width={400}
                 height={600}
                 src={'/assets/images/damilola-law.jpg'}
               />
             </div>
-            <div className='lg:w-1/3 flex justify-center items-center'>
+            {/* <div className='lg:w-1/3 flex justify-center items-center'>
               <p className='font-bold text-5xl'>2024</p>
-            </div>
+            </div> */}
           </div>
           <div className='lg:w-2/3 mx-auto text-center'>
             <div className='mb-7'>
@@ -115,9 +116,9 @@ const LifeOfDamilola = () => {
                 Oluwadamilola and Peter were a loving couple and great parents
                 to their children until the unfortunate demise of Oluwadamilola
                 on 27 June 2024. All through her hospitalisation in Montreal
-                Canada for 11+ months, Peter was always by her bed side daily,
-                as he fought so hard for his wife, the love of his life,
-                confidant and friend to stay alive and well.
+                Canada for 11+ months, Peter was always by Oluwadamilola's bed
+                side daily, as he fought so hard for his wife, the love of his
+                life, confidant and friend to stay alive and well.
               </p>
             </div>
             <div className='mb-7'>
@@ -165,8 +166,23 @@ const LifeOfDamilola = () => {
             </div>
             <div className='mt-5'>
               <Link href={'/tribute'}>
-                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
                   Share a Memory/Tribute of Damilola
+                </button>
+              </Link>
+              <Link href={'/life-of-damilola'}>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
+                  Life of Damilola
+                </button>
+              </Link>
+              <Link href={'/gallery'}>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
+                  Gallery
+                </button>
+              </Link>
+              <Link href={'/funeral'}>
+                <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
+                  Funeral Arrangment
                 </button>
               </Link>
             </div>

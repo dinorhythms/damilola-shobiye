@@ -6,8 +6,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'In Memory of Damilola Shobiye',
-  description: 'In Memory of Damilola Shobiye',
+  title: 'In Memory of Mrs. Damilola Shobiye',
+  description: 'In Memory of Mrs. Damilola Shobiye',
 };
 
 export default function RootLayout({
