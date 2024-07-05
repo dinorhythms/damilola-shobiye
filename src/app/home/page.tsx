@@ -20,7 +20,7 @@ const page = () => {
               Oyeledun)
             </p>
             <br className='lg:hidden' />
-            <p className='text-3xl my-4 font-bold'>(1982 -2024)</p>
+            <p className='text-3xl my-4 font-bold'>(1982 - 2024)</p>
             <div className='max-w-[800px] mx-auto text-center mt-5'>
               <p className=''>
                 Dami my dear wife, I write with the deepest grieve Sweetie mi. I
@@ -39,14 +39,14 @@ const page = () => {
         </div>
       </section>
       <section className='mx-3 lg:mx-0'>
-        <div className='container mx-auto text-center py-16 lg:pt-3'>
+        <div className='container mx-auto text-center py-16 lg:pt-0'>
           <p className='font-bold text-xl inline lg:hidden'>
             IN LOVING MEMORY OF BARRISTER MRS. DAMILOLA O. SHOBIYE (nee
             Oyeledun)
           </p>
           <br />
           <p className='text-3xl my-4 font-bold inline lg:hidden'>
-            (1982 -2024)
+            (1982 - 2024)
           </p>
           <div className='max-w-[800px] mx-auto text-center mt-7 lg:mt-0'>
             <p className='mb-7 inline lg:hidden'>
@@ -106,7 +106,7 @@ const page = () => {
               </Link>
               <Link href={'/funeral'}>
                 <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
-                  Funeral Arrangment
+                  Funeral Arrangement
                 </button>
               </Link>
             </div>

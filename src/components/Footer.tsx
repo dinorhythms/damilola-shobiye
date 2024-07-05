@@ -8,7 +8,7 @@ const Footer = () => {
           Mrs. Damilola O. Shobiye. {/* <br /> */}
           Our loving Wife, Mother, Sister, Daughter and Friend.
         </p>
-        <p className='font-bold text-2xl'>(1982 -2024)</p>
+        <p className='font-bold text-2xl'>(1982 - 2024)</p>
       </div>
     </footer>
   );

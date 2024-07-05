@@ -1,5 +1,6 @@
+'use client';
 import Header from '@/components/Header';
-import Image from 'next/image';
+import { Carousel } from '@material-tailwind/react';
 import Link from 'next/link';
 
 const LifeOfDamilola = () => {
@@ -50,51 +51,41 @@ const LifeOfDamilola = () => {
                   Gallery
                 </button>
               </Link>
-              <Link href={'/funeral'}>
+              <Link href={'/home'}>
                 <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
-                  Funeral Arrangment
+                  Home
                 </button>
               </Link>
             </div>
           </div>
         </div>
       </section>
-      <section className='flex'>
-        <Image
-          alt='damilola'
-          className='w-1/5'
-          width={286}
-          height={493}
-          src={'/assets/images/life1.jpg'}
-        />
-        <Image
-          alt='damilola'
-          className='w-1/5'
-          width={286}
-          height={493}
-          src={'/assets/images/life2.jpg'}
-        />
-        <Image
-          alt='damilola'
-          className='w-1/5'
-          width={286}
-          height={493}
-          src={'/assets/images/life3.jpg'}
-        />
-        <Image
-          alt='damilola'
-          className='w-1/5'
-          width={286}
-          height={493}
-          src={'/assets/images/life4.jpg'}
-        />
-        <Image
-          alt='damilola'
-          className='w-1/5'
-          width={286}
-          height={493}
-          src={'/assets/images/life5.jpg'}
-        />
+      <section className=''>
+        <div className='mx-auto text-center'>
+          <Carousel
+            loop={true}
+            transition={{ duration: 2 }}
+            className='rounded-xl'>
+            <iframe
+              width='100%'
+              height='500'
+              src='https://www.youtube.com/embed/dT3czJHNqJQ?si=iaYhbHhTedSiu9T7&amp;start=1'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              referrerpolicy='strict-origin-when-cross-origin'
+              allowfullscreen></iframe>
+            <iframe
+              width='100%'
+              height='500'
+              src='https://www.youtube.com/embed/Adl7SpRCtYs?si=mNttaiqiVeV7g8uq&amp;start=1'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              referrerpolicy='strict-origin-when-cross-origin'
+              allowfullscreen></iframe>
+          </Carousel>
+        </div>
       </section>
     </div>
   );
