@@ -65,25 +65,28 @@ const LifeOfDamilola = () => {
           <Carousel
             loop={true}
             transition={{ duration: 2 }}
-            className='rounded-xl'>
+            className='rounded-xl'
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}>
             <iframe
               width='100%'
               height='500'
               src='https://www.youtube.com/embed/dT3czJHNqJQ?si=iaYhbHhTedSiu9T7&amp;start=1'
               title='YouTube video player'
-              frameborder='0'
+              frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              referrerpolicy='strict-origin-when-cross-origin'
-              allowfullscreen></iframe>
+              referrerPolicy='strict-origin-when-cross-origin'
+              allowFullScreen></iframe>
             <iframe
               width='100%'
               height='500'
               src='https://www.youtube.com/embed/Adl7SpRCtYs?si=mNttaiqiVeV7g8uq&amp;start=1'
               title='YouTube video player'
-              frameborder='0'
+              frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              referrerpolicy='strict-origin-when-cross-origin'
-              allowfullscreen></iframe>
+              referrerPolicy='strict-origin-when-cross-origin'
+              allowFullScreen></iframe>
           </Carousel>
         </div>
       </section>
