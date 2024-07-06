@@ -60,7 +60,13 @@ const LifeOfDamilola = () => {
           </div>
         </div>
       </section>
-      <section className=''>
+      <section className='bg-black'>
+        <div className='text-center py-10'>
+          <p className='font-bold text-xl text-white'>
+            Click to watch videos of
+          </p>
+          <p className='text-3xl my-4 font-bold text-white'>Dam Dam Sho</p>
+        </div>
         <div className='mx-auto text-center'>
           <Carousel
             loop={true}

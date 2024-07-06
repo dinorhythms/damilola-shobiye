@@ -1,6 +1,7 @@
 'use client';
 import Header from '@/components/Header';
 import { CommentCount, DiscussionEmbed } from 'disqus-react';
+import Link from 'next/link';
 import 'react-image-lightbox/style.css';
 
 const LifeOfDamilola = () => {
@@ -47,6 +48,33 @@ const LifeOfDamilola = () => {
               </button>
             </Link>
           </div> */}
+        </div>
+      </section>
+      <section className='mb-10 mx-3 lg:mx-0'>
+        <div className='mx-auto text-center'>
+          <div className='mt-5'>
+            <Link href={'/home'}>
+              <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
+                Home
+              </button>
+            </Link>
+            <Link href={'/gallery'}>
+              <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
+                Gallery
+              </button>
+            </Link>
+
+            <Link href={'/life-of-damilola'}>
+              <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white mr-2'>
+                Life of Damilola
+              </button>
+            </Link>
+            <Link href={'/funeral'}>
+              <button className='mt-5 px-7 py-5 rounded-xl bg-black text-white'>
+                Funeral Arrangement
+              </button>
+            </Link>
+          </div>
         </div>
       </section>
     </div>
