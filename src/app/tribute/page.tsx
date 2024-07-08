@@ -18,8 +18,11 @@ const LifeOfDamilola = () => {
       </section>
       <section className='bg-[#F6F6F6] mx-3 lg:mx-0 disqus'>
         <div className='container mx-auto text-center py-16'>
-          {/* <p className='font-bold text-xl'>SHARE HER LIFE</p>
-          <p className='text-3xl my-4 font-bold'>MEMORIES / TRIBUTES</p> */}
+          <p className='font-bold text-xl'>
+            Kindly note that you can upload pictures alongside your comment
+            using the picture icon.
+          </p>
+          {/* <p className='text-3xl my-4 font-bold'>MEMORIES / TRIBUTES</p> */}
           <div>
             <DiscussionEmbed
               shortname='damilola-shobiye'
