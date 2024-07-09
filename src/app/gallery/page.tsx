@@ -287,7 +287,7 @@ const loadImages = async (): Promise<CustomImage[]> => {
   const images: CustomImage[] = [];
 
   // Generate image objects from gallery21 to gallery110
-  for (let i = 2; i <= 100; i++) {
+  for (let i = 2; i <= 106; i++) {
     const image = {
       src: `/assets/images/gallery/gallery${i}.jpg`,
       original: `/assets/images/gallery/gallery${i}.jpg`,
