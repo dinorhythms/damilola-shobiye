@@ -138,7 +138,7 @@ const LifeOfDamilola = () => {
                 into Babcock University, Ikenne, Ogun State to study a finance
                 related course, but later opted to accept her admission to study
                 Law at the Ogun State University (now known as Olabisi Onabanjo
-                University), Ago – Iwoye, Ogun State. Oluwadamilola progressed
+                University), Ago - Iwoye, Ogun State. Oluwadamilola progressed
                 well in her Law studies, and graduated successfully in September
                 2005 with a Bachelor of Laws (LLB).
               </p>
@@ -151,14 +151,15 @@ const LifeOfDamilola = () => {
                 the roll of lawyers at the Supreme Court of Nigeria.
               </p>
               <p className='mb-5'>
-                For her Master’s degree, Oluwadamilola gained admission into
-                Glasgow Caledonian University, Glasgow, Scotland, United
+                For her Master&lsquo;s degree, Oluwadamilola gained admission
+                into Glasgow Caledonian University, Glasgow, Scotland, United
                 Kingdom, where she finished top of her class as the best LLM
                 graduating student in July 2010. Her desire to pursue continuous
                 development gained her admission in the prestigious John Molson
                 School of Business, Concordia University, Montreal, Quebec,
-                Canada, in pursuit of a Masters in Business Administration
-                (MBA), and she graduated with celebrations held in June 2023.
+                Canada, in pursuit of refined knowledge in Business
+                Administration, and she graduated with celebrations held in June
+                2023.
               </p>
               <p className='mb-5'>
                 Oluwadamilola had a great career, worked with multinationals in
