@@ -210,6 +210,15 @@ const LifeOfDamilola = () => {
             <iframe
               width='100%'
               height='500'
+              src='https://www.youtube.com/embed/sMOQxEfRNrU?si=zSsaQJ49LZTw83yl'
+              title='YouTube video player'
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              referrerPolicy='strict-origin-when-cross-origin'
+              allowFullScreen></iframe>
+            <iframe
+              width='100%'
+              height='500'
               src='https://www.youtube.com/embed/dT3czJHNqJQ?si=iaYhbHhTedSiu9T7&amp;start=1'
               title='YouTube video player'
               frameBorder='0'
