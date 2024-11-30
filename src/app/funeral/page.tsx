@@ -19,7 +19,7 @@ const LifeOfDamilola = () => {
           </div>
           <div className='lg:w-2/3 mx-auto text-center mt-10'>
             <div className='mb-7'>
-              <p className='mb-5'>
+              <p className='mb-5 hidden'>
                 A befitting memorial service, church service, and interment
                 details, will be announced shortly. Please check this page
                 again.
